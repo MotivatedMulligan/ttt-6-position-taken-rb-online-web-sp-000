@@ -8,7 +8,7 @@ def location
   location = board(array)
 end
 
-def position_taken?(board,index)
+ef position_taken?(board,index)
  if (board, index) == " " 
  return false
  if (board, index) == ""
@@ -19,3 +19,4 @@ def position_taken?(board,index)
  return true
  end
 end
+d
