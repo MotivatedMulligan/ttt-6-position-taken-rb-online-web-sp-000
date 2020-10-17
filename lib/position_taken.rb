@@ -1,5 +1,13 @@
 # code your #position_taken? method here!
 
+
+ def position_taken?(board(array))
+    !(board(array).nil? || board(array) == " ")
+  end
+def location
+  location = board(array)
+end
+
 def position_taken?(board,index)
  if (board, index) == " " 
  return false
@@ -10,11 +18,4 @@ def position_taken?(board,index)
  else (board, index) 
  return true
  end
-end
-
- def position_taken?(location)
-    !(position(location).nil? || position(location) == " ")
-  end
-def location
-  location = board[array]
 end
