@@ -2,7 +2,10 @@
 
 
  def position_taken?(board(array))
-    !(board(array).nil? || board(array) == " ")
+   if (board(array) == "" || board(array) == " ")
+     puts false
+ else 
+   true
   end
 
 
