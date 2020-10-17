@@ -2,6 +2,7 @@
 
 
  def position_taken?(board,array)
+ end
    if position_taken? == "" || " "
      puts false
  else 
