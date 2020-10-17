@@ -2,7 +2,7 @@
 
 
  def position_taken?(board,array)
-   if (board,array) == "" || (board,array) == " ")
+   if (board,array == "" || board,array == " ")
      puts false
  else 
    true
